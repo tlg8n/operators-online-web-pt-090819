@@ -10,7 +10,7 @@ end
  
 
 def not_safe?(speed)
-  {condition} ? {if-code-block} : {else-code-block}
+  speed ? > 60 : {else-code-block}
 end
 
 	
